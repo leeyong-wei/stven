@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+.hero {
+  background: url('hero.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 3rem;
+}
+.hero-text p {
+  font-size: 1.2rem;
+}
+.about {
+  padding: 2em;
+  background: white;
+}
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 1em 0;
+}
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
